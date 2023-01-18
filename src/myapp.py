@@ -15,7 +15,7 @@ class MyApp():
         self.root_window.option_add("*tearOff", False) # This is always a good idea
         self.root_window.protocol("WM_DELETE_WINDOW",self.close_window)
 
-        self.version = "1.0.0"
+        self.version = "1.0.1"
 
 
         self.vers_text = ttk.Label(text=f"VERSION {self.version}")
